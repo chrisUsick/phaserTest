@@ -25,7 +25,7 @@ Now the dependencies are installed. The `node_modules` directory and `bower_comp
 
 ### Run development server
 To run the development server run the following command in a command line in the project directory
-`$ gulp serve`
+`gulp serve`
 This will automatically open a web browser, if you edit the source code it will automatically refresh the page.
 
 All done! 
