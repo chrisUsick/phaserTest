@@ -14,8 +14,8 @@ This project shows a configuration for phaser development.
 ## Installation
 First you need to install Node.js. Gulp is built in Node.js. You can think of Node.js as a scripting shell in some ways (it can do lots more though). [Download Node.js here](https://nodejs.org/en/)
 
-Use NPM to install some global dependencies. Run the following command in a command line.   
-`$ npm install bower gulp`
+Use NPM to install some global dependencies. Run the following command in a command line.  
+`npm install -g bower gulp` or on Mac `sudo npm install -g bower gulp`  
 
 Next, get the source code of the project. The simplest way is to click the 'save chrisUsick/phaserTest to your computer and use it in Github Desktop'  button to download the code using Github desktop. (you may need to install github desktop first)
 
