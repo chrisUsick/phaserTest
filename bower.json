@@ -13,6 +13,11 @@
         "dist/js/bootstrap.js",
         "dist/fonts/*"
       ]
+    },
+    "phaser": {
+      "main":[
+        "dist/phaser-all.min.js"
+      ]
     }
   },
   "devDependencies": {

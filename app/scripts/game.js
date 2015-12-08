@@ -1,4 +1,4 @@
-/* initial state functions */
+import TileMapState from './states/tileMap';
 
 class InitialState extends Phaser.State {
   preload() {
@@ -36,7 +36,7 @@ class InitialState extends Phaser.State {
 
 export default class Game extends Phaser.Game {
   constructor() {
-    super(800, 600, Phaser.CANVAS, 'phaser-example', new InitialState());
+    super(800, 600, Phaser.CANVAS, 'phaser-example', new TileMapState());
   }
   render() {
     this.debug.cameraInfo(game.camera, 32, 32);
